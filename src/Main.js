@@ -1,8 +1,7 @@
 import React from 'react'
 import { SafeAreaView, View, ScrollView, KeyboardAvoidingView, StyleSheet, Image, Dimensions, Platform } from 'react-native'
 
-import MyButton from "./components/MyButton"
-import MyInput from "./components/MyInput"
+import { MyInput, MyButton } from './components'
 
 const Main = () => {
 
@@ -56,4 +55,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Main
+export { Main }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SafeAreaView, View, Text, FlatList } from 'react-native'
+import { SafeAreaView, View, Text, FlatList, Button } from 'react-native'
 
 import ListItem from './components/ListItem'
 
@@ -25,4 +25,4 @@ const List = props => {
     )
 }
 
-export default List
+export { List }
