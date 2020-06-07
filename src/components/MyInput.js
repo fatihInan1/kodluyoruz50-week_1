@@ -8,6 +8,7 @@ const MyInput = props => {
                 keyboardType={props.type}
                 autoCapitalize="none"
                 placeholder={props.myPlace}
+                onChangeText={props.textChange}
             />
         </View>
     )
